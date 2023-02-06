@@ -1,0 +1,23 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe Application",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolofabris/kitchen-app.git"
+  },
+  "author": "Nicolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolofabris/kitchen-app/issues"
+  },
+  "homepage": "https://github.com/nicolofabris/kitchen-app#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3"
+  }
+}
