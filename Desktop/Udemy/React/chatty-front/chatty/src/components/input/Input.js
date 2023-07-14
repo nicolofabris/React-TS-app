@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 
 const Input = ({
+  id,
   name,
   type,
   value,
@@ -18,6 +19,7 @@ const Input = ({
           </label>
         )}
         <input
+        id={id}
           name={name}
           type={type}
           value={value}
@@ -34,8 +36,9 @@ const Input = ({
 Input.propTypes = {
     name: PropTypes.string.isRequired,
     labelText: PropTypes.string,
+    id: PropTypes.string,
     type: PropTypes.string.isRequired,
-    value: PropTypes.string,
+    value: PropTypes.any,
     className: PropTypes.string,
     placeholder: PropTypes.string,
     handleChange: PropTypes.func
